@@ -28,4 +28,8 @@ public class Vehicle {
         System.out.println("Year: " + year);
         System.out.println("Model: " + model);
     }
+
+    public void display() {
+        System.out.println("I am from the Vehicle Class");
+    }
 }

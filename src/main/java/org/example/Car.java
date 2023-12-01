@@ -23,4 +23,11 @@ public class Car extends Vehicle{
         System.out.println("Fuel Capacity on Vehicle Class: " + super.fuelCap);
         System.out.println("Fuel Capacity on Car Class: " + fuelCap);
     }
+
+    public void printOut() {
+        System.out.println("The display() call with super");
+        super.display();
+        System.out.println("The display() call without super");
+        display();
+    }
 }
