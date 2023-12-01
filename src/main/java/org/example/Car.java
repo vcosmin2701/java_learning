@@ -8,8 +8,17 @@ public class Car extends Vehicle{
         this.bodyStyle = bodyStyle;
     }
 
+    public Car(){
+        super();
+        this.bodyStyle = "none";
+    }
+
     public void carDetails() {
         printDetails();
         System.out.println("Body Style: " + bodyStyle);
+    }
+
+    public void openTrunk() {
+        System.out.println("The Car trunk is Open Now");
     }
 }
