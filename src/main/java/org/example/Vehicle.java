@@ -1,6 +1,6 @@
 package org.example;
 
-public class Vehicle {
+class Vehicle {
     private String make;
     private String color;
     private int year;
